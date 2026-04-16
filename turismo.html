@@ -7,34 +7,98 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">🇯🇵 JAPÃO</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comida.html">Gastronomia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mangas.html">Mangás</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="turismo.html">Turismo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 <main class="container my-5">
-    <h2 class="text-center mb-4">Destinos Imperdíveis</h2>
-    <div class="table-responsive">
-        <table class="table table-hover align-middle">
-            <thead class="table-dark">
-                <tr>
-                    <th>Cidade</th>
-                    <th>Destaque</th>
-                    <th>Tipo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Tóquio</strong></td>
-                    <td>Cruzamento de Shibuya</td>
-                    <td>Metrópole Futurista</td>
-                </tr>
-                <tr>
-                    <td><strong>Quioto</strong></td>
-                    <td>Fushimi Inari-taisha</td>
-                    <td>Templos Históricos</td>
-                </tr>
-                <tr>
-                    <td><strong>Osaka</strong></td>
-                    <td>Castelo de Osaka</td>
-                    <td>História e Lazer</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Destinos Imperdíveis</h1>
+        <p class="lead">Explore as cidades que misturam o futuro tecnológico com segredos milenares.</p>
     </div>
-</main>
+
+    <div class="row g-4 mb-5">
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Tóquio">
+                    <span class="position-absolute top-0 start-0 m-3 badge bg-danger">Metrópole</span>
+                </div>
+                <div class="card-body">
+                    <h4 class="fw-bold">Tóquio</h4>
+                    <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Cruzamento de Shibuya</p>
+                    <p class="card-text">A capital pulsante do Japão. Conhecida pelas luzes de neon, tecnologia de ponta e o cruzamento mais movimentado do mundo.</p>
+                </div>
+                <div class="card-footer bg-white border-0 pb-3">
+                    <button class="btn btn-outline-danger w-100">Ver detalhes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Quioto">
+                    <span class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark">Histórico</span>
+                </div>
+                <div class="card-body">
+                    <h4 class="fw-bold">Quioto</h4>
+                    <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Fushimi Inari-taisha</p>
+                    <p class="card-text">O coração cultural do país. Abriga milhares de templos budistas, jardins zen e os famosos portais (Torii) vermelhos.</p>
+                </div>
+                <div class="card-footer bg-white border-0 pb-3">
+                    <button class="btn btn-outline-danger w-100">Ver detalhes</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 border-0 shadow">
+                <div class="position-relative">
+                    <img src="https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Osaka">
+                    <span class="position-absolute top-0 start-0 m-3 badge bg-info text-dark">Lazer</span>
+                </div>
+                <div class="card-body">
+                    <h4 class="fw-bold">Osaka</h4>
+                    <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Castelo de Osaka</p>
+                    <p class="card-text">Famosa pela sua arquitetura moderna, vida noturna vibrante e gastronomia de rua que é considerada a melhor do país.</p>
+                </div>
+                <div class="card-footer bg-white border-0 pb-3">
+                    <button class="btn btn-outline-danger w-100">Ver detalhes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5 py-5 border-top">
+        <div class="col-md-6">
+            <h3 class="fw-bold mb-4">Informações Úteis para o Turista</h3>
+            <div class="d-flex mb-3">
+                <div class="me-3">
+                    <span class="bg-danger text-white rounded-circle p-2" style="width: 40px; height: 40px; display: inline-block; text-align: center;">🚄</span>
+                </div>
+                <div>
+                    <h5>Transporte</h5>
+                    <p class="small text-muted">O JR Pass é essencial. Os trens-bala (Shinkansen) conectam as principais cidades com pontualidade britânica.</p>
+                </div>
+            </div>
+    <footer>        
+        <div class="container">
+            <p class="mb-0">© 2026 Projeto Volta ao Mundo - Japão</p>
+            <small>Desenvolvido com HTML, CSS e Bootstrap</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
