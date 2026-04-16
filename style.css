@@ -47,3 +47,28 @@ body {
     background-color: #8a0021;
     color: white;
 }
+
+/* Ícone da Bandeira do Japão Personalizado */
+.flag-icon {
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    background-color: white;
+    border: 1px solid #ddd;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.flag-icon::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: #bc002d;
+    border-radius: 50%;
+}
