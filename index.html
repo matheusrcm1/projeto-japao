@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japão - Volta ao Mundo</title>
+    <title>Japão - Terra do Sol Nascente</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Destino: Japão</a>
-            <div class="collapse navbar-collapse">
+            <a class="navbar-brand fw-bold" href="index.html">🇯🇵 JAPÃO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
                     <li class="nav-item"><a class="nav-link" href="comida.html">Gastronomia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mangas.html">Mangás</a></li>
                     <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
                     <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
                 </ul>
@@ -24,35 +29,98 @@
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <h1 class="text-center">Bem-vindo ao Japão</h1>
-        <p class="lead">Explore a terra do sol nascente.</p>
-    </div>
+    <header class="jumbotron-japan">
+        <div class="container">
+            <h1 class="display-2 fw-bold">Nippon</h1>
+            <p class="fs-4">Onde a tradição milenar encontra o futuro tecnológico.</p>
+            <a href="#explorar" class="btn btn-japan btn-lg mt-3">Começar Exploração</a>
+        </div>
+    </header>
+
+    <main id="explorar">
+        <section class="container my-5 py-5 text-center">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <h2 class="fw-bold text-danger">125Mi</h2>
+                    <p class="text-muted">Habitantes</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fw-bold text-danger">Tóquio</h2>
+                    <p class="text-muted">Capital</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fw-bold text-danger">Iene</h2>
+                    <p class="text-muted">Moeda Oficial</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fw-bold text-danger">6.852</h2>
+                    <p class="text-muted">Ilhas no arquipélago</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center fw-bold mb-5">Você Sabia? <span class="text-danger">Curiosidades Extraordinárias</span></h2>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start p-4 bg-white shadow-sm rounded">
+                            <div class="me-4 fs-1">🚄</div>
+                            <div>
+                                <h5 class="fw-bold">Pontualidade Extrema</h5>
+                                <p class="mb-0 text-muted small">O atraso médio anual dos trens-bala japoneses é de apenas **18 segundos**. Se um trem atrasa mais de 5 minutos, a companhia emite um certificado oficial de atraso para os passageiros apresentarem no trabalho.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start p-4 bg-white shadow-sm rounded">
+                            <div class="me-4 fs-1">🤖</div>
+                            <div>
+                                <h5 class="fw-bold">Máquinas de Vendas</h5>
+                                <p class="mb-0 text-muted small">Existem cerca de **5 milhões** de máquinas de venda automática (Jidouhanbaikki) no país. Elas vendem desde café quente e ramen até guarda-chuvas e roupas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start p-4 bg-white shadow-sm rounded">
+                            <div class="me-4 fs-1">🧹</div>
+                            <div>
+                                <h5 class="fw-bold">Escolas sem Faxineiros</h5>
+                                <p class="mb-0 text-muted small">Nas escolas japonesas, os próprios alunos limpam as salas de aula e os banheiros. Isso faz parte da educação para ensinar responsabilidade, ética e trabalho em equipe.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start p-4 bg-white shadow-sm rounded">
+                            <div class="me-4 fs-1">🏔️</div>
+                            <div>
+                                <h5 class="fw-bold">Montanhas Sagradas</h5>
+                                <p class="mb-0 text-muted small">Cerca de **70% do Japão é composto por montanhas**. Isso explica por que as cidades são tão densamente povoadas e por que a natureza é tão respeitada na cultura shintoísta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container my-5 py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded-4 shadow" alt="Templo Japonês">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <h2 class="fw-bold mt-4">Pronto para a jornada?</h2>
+                    <p class="lead text-muted">Navegue pelas nossas seções exclusivas e descubra por que o Japão é um dos destinos mais fascinantes do planeta.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="cultura.html" class="btn btn-japan btn-lg px-4">Conhecer Cultura</a>
+                        <a href="turismo.html" class="btn btn-outline-dark btn-lg px-4">Ver Pontos Turísticos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<footer class="bg-dark text-light py-5 mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 mb-4">
-                <h5 class="text-uppercase fw-bold text-danger mb-3">Destino: Japão</h5>
-                <p class="small">Explorando as maravilhas da Terra do Sol Nascente, unindo a tradição milenar à tecnologia de ponta. Um projeto para o Volta ao Mundo.</p>
-            </div>
-            <div class="col-lg-4 mb-4 text-center">
-            </div>
-            <div class="col-lg-4 mb-4 text-end">
-                <h5 class="text-uppercase fw-bold mb-3">Contato</h5>
-                <p class="small mb-1">contato@projetojapao.com</p>
-                <div class="mt-3">
-                    <span class="badge bg-danger p-2">#JapanCulture</span>
-                    <span class="badge bg-secondary p-2">#BootstrapProject</span>
-                </div>
-            </div>
-        </div>
-        <hr class="bg-light">
-        <div class="text-center mt-4">
-            <p class="mb-0 small text-secondary">© 2026 Projeto Volta ao Mundo. Todos os direitos reservados.</p>
-        </div>
-    </div>
-</footer>
 </html>
