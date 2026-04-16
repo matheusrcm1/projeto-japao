@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japão - Volta ao Mundo</title>
+    <title>Turismo - Destino Japão</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<body> <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">🇯🇵 JAPÃO</a>
+            <a class="navbar-brand fw-bold" href="index.html">
+                <span class="flag-icon"></span>JAPÃO
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -22,85 +28,104 @@
             </div>
         </div>
     </nav>
-<main class="container my-5">
-    <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold">Destinos Imperdíveis</h1>
-        <p class="lead">Explore as cidades que misturam o futuro tecnológico com segredos milenares.</p>
-    </div>
 
-    <div class="row g-4 mb-5">
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 border-0 shadow">
-                <div class="position-relative">
-                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Tóquio">
-                    <span class="position-absolute top-0 start-0 m-3 badge bg-danger">Metrópole</span>
+    <main class="container my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold">Destinos Imperdíveis</h1>
+            <p class="lead">Explore as cidades que misturam o futuro tecnológico com segredos milenares.</p>
+        </div>
+
+        <div class="row g-4 mb-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Tóquio">
+                        <span class="position-absolute top-0 start-0 m-3 badge bg-danger">Metrópole</span>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="fw-bold">Tóquio</h4>
+                        <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Cruzamento de Shibuya</p>
+                        <p class="card-text">A capital pulsante do Japão. Conhecida pelas luzes de neon e tecnologia de ponta.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-danger w-100">Ver detalhes</button>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h4 class="fw-bold">Tóquio</h4>
-                    <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Cruzamento de Shibuya</p>
-                    <p class="card-text">A capital pulsante do Japão. Conhecida pelas luzes de neon, tecnologia de ponta e o cruzamento mais movimentado do mundo.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Quioto">
+                        <span class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark">Histórico</span>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="fw-bold">Quioto</h4>
+                        <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Fushimi Inari-taisha</p>
+                        <p class="card-text">O coração cultural do país, repleto de templos e jardins zen tradicionais.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-danger w-100">Ver detalhes</button>
+                    </div>
                 </div>
-                <div class="card-footer bg-white border-0 pb-3">
-                    <button class="btn btn-outline-danger w-100">Ver detalhes</button>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Osaka">
+                        <span class="position-absolute top-0 start-0 m-3 badge bg-info text-dark">Lazer</span>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="fw-bold">Osaka</h4>
+                        <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Castelo de Osaka</p>
+                        <p class="card-text">Famosa pela vida noturna vibrante e pela melhor comida de rua do mundo.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 pb-3">
+                        <button class="btn btn-outline-danger w-100">Ver detalhes</button>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 border-0 shadow">
-                <div class="position-relative">
-                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Quioto">
-                    <span class="position-absolute top-0 start-0 m-3 badge bg-warning text-dark">Histórico</span>
-                </div>
-                <div class="card-body">
-                    <h4 class="fw-bold">Quioto</h4>
-                    <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Fushimi Inari-taisha</p>
-                    <p class="card-text">O coração cultural do país. Abriga milhares de templos budistas, jardins zen e os famosos portais (Torii) vermelhos.</p>
-                </div>
-                <div class="card-footer bg-white border-0 pb-3">
-                    <button class="btn btn-outline-danger w-100">Ver detalhes</button>
+        <div class="row mt-5 py-5 border-top">
+            <div class="col-md-6">
+                <h3 class="fw-bold mb-4">Dica de Viagem</h3>
+                <div class="d-flex mb-3">
+                    <div class="me-3">
+                        <span class="bg-danger text-white rounded-circle p-2" style="width: 40px; height: 40px; display: inline-block; text-align: center;">🚄</span>
+                    </div>
+                    <div>
+                        <h5>Transporte</h5>
+                        <p class="small text-muted">O JR Pass é essencial para quem quer viajar entre cidades usando o trem-bala.</p>
+                    </div>
                 </div>
             </div>
         </div>
+    </main>
 
-        <div class="col-lg-4 col-md-6">
-            <div class="card h-100 border-0 shadow">
-                <div class="position-relative">
-                    <img src="https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Osaka">
-                    <span class="position-absolute top-0 start-0 m-3 badge bg-info text-dark">Lazer</span>
-                </div>
-                <div class="card-body">
-                    <h4 class="fw-bold">Osaka</h4>
-                    <p class="text-muted"><i class="bi bi-geo-alt-fill"></i> Castelo de Osaka</p>
-                    <p class="card-text">Famosa pela sua arquitetura moderna, vida noturna vibrante e gastronomia de rua que é considerada a melhor do país.</p>
-                </div>
-                <div class="card-footer bg-white border-0 pb-3">
-                    <button class="btn btn-outline-danger w-100">Ver detalhes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row mt-5 py-5 border-top">
-        <div class="col-md-6">
-            <h3 class="fw-bold mb-4">Informações Úteis para o Turista</h3>
-            <div class="d-flex mb-3">
-                <div class="me-3">
-                    <span class="bg-danger text-white rounded-circle p-2" style="width: 40px; height: 40px; display: inline-block; text-align: center;">🚄</span>
-                </div>
-                <div>
-                    <h5>Transporte</h5>
-                    <p class="small text-muted">O JR Pass é essencial. Os trens-bala (Shinkansen) conectam as principais cidades com pontualidade britânica.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-        <footer class="footer text-center">
+    <footer class="bg-dark text-light py-5 mt-5">
         <div class="container">
-            <p class="mb-0">© 2026 Projeto Volta ao Mundo - Japão</p>
-            <small>Desenvolvido com HTML, CSS e Bootstrap</small>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-uppercase fw-bold text-danger mb-3">Destino: Japão</h5>
+                    <p class="small">Um projeto "Volta ao Mundo" explorando a cultura oriental.</p>
+                </div>
+                <div class="col-lg-4 mb-4 text-center">
+                    <h5 class="text-uppercase fw-bold mb-3">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-decoration-none small">Home</a></li>
+                        <li><a href="comida.html" class="text-light text-decoration-none small">Gastronomia</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4 text-end">
+                    <h5 class="text-uppercase fw-bold mb-3">2026</h5>
+                    <span class="badge bg-danger">Projeto Escolar</span>
+                </div>
+            </div>
         </div>
-        </footer>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
